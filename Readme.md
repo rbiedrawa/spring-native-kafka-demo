@@ -16,8 +16,8 @@ This repository demonstrates how to transform a `Spring Boot Kafka` application 
 ./gradlew bootBuildImage
 ```
 
-*** *Occasionally You may see the following error; `Error: Image building with exit status 137`.This occurs if the
-system runs out of ram, in order to fix this increase memory in Docker e.g 10GB*
+*** *Occasionally You may see the following error: `Error: Image building with exit status 137`.This error occurs if the
+system runs out of ram, in order to fix this increase Docker memory e.g 10GB*
 
 #### 2. Start Docker containers
 
@@ -26,7 +26,7 @@ cd docker
 docker compose up -d
 ```
 
-#### 3. Check if all components are up and running
+#### 3. Check if all containers are up and running
 
 ```shell
 docker compose ps
@@ -82,7 +82,7 @@ docker compose down -v
 
 | Name | Endpoint | 
 | -------------:|:--------:|
-| `akhq UI` | [http://localhost:8080/](http://localhost:8080/) |
+| `Akhq UI` | [http://localhost:8080/](http://localhost:8080/) |
 | `Schema-registry` | [http://localhost:8081/](http://localhost:8081/) |
 
 ## References
