@@ -94,6 +94,7 @@ For further reference, please consider the following sections:
 * [Announcing Spring Native Beta!](https://spring.io/blog/2021/03/11/announcing-spring-native-beta)
 * [Spring for Apache Kafka](https://docs.spring.io/spring-boot/docs/2.5.2/reference/htmlsingle/#boot-features-kafka)
 * [Kafka Docker Images](https://github.com/confluentinc/kafka-images)
+* [I tried Spring Native for GraalVM and I like it!](https://www.youtube.com/watch?app=desktop&v=x1nVchtOn90)
 
 ## License
 
