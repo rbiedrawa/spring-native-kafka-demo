@@ -1,4 +1,4 @@
-package com.rbiedrawa.app.customers.kafka;
+package com.rbiedrawa.app.customers;
 
 
 import static com.rbiedrawa.app.config.KafkaConfiguration.Topics;

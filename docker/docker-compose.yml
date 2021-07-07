@@ -67,6 +67,7 @@ services:
     hostname: spring-native-demo
     container_name: spring-native-demo
     depends_on:
+      - akhq
       - kafka
       - schema-registry
     ports:
