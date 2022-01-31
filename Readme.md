@@ -4,7 +4,7 @@ This repository demonstrates how to transform a `Spring Boot Kafka` application 
 
 ## Getting Started
 
-### Prerequisite
+### Prerequisites
 
 * Docker
 
